@@ -1,7 +1,7 @@
 /*
 Language: Jaiva
 Description: A very fun language trust
-Author: Lehlogonolo Poole <hlonipoole292@gmail.com>
+Author: Lehlogonolo Poole <hlonipoole692@gmail.com>
 Category: scripting
 */
 
