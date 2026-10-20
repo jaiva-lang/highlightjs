@@ -5,7 +5,7 @@
 
 [![ci status](https://github.com/yetnt/jaiva/highlightjs/actions/workflows/ci.yml/badge.svg)](https://github.com/jaiva-lang/highlightjs/actions/workflows/ci.yml)
 
-Jaiva! is an esoteric* functional* programming language which ive randomly decided requires highlighting.
+Jaiva! is an esoteric\* functional\* programming language which ive randomly decided requires highlighting.
 
 <!-- Link to [jaiva grammar description](https://official.language.com). -->
 
