@@ -1,3 +1,5 @@
 {
-  "require": "should"
+    "spec": "test/markup.js",
+    "checkLeaks": true,
+    "require": "should"
 }
