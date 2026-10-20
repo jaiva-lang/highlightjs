@@ -1,6 +1,6 @@
 {
     "name": "highlightjs-jaiva",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "author": "Lehlogonolo Poole",
     "description": "Jaiva Scripting language definition for highlightjs",
     "main": "src/languages/jaiva.js",

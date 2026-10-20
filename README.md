@@ -3,9 +3,9 @@
 ![version](https://badgen.net/npm/v/highlightjs-jaiva) ![license](https://badgen.net/badge/license/MIT/blue)
 ![install size](https://badgen.net/packagephobia/install/highlightjs-jaiva) ![minified size](https://badgen.net/bundlephobia/min/highlightjs-jaiva)
 
-[![ci status](https://github.com/yett/highlightjs-jaiva/actions/workflows/ci.yml/badge.svg)](https://github.com/yetnt/highlightjs-jaiva/actions/workflows/ci.yml)
+[![ci status](https://github.com/yetnt/jaiva/highlightjs/actions/workflows/ci.yml/badge.svg)](https://github.com/jaiva-lang/highlightjs/actions/workflows/ci.yml)
 
-Jaiva! is an esoteric functional programming language which leverages South African keywords and declarative syntax.
+Jaiva! is an esoteric* functional* programming language which ive randomly decided requires hightlighting.
 
 <!-- Link to [jaiva grammar description](https://official.language.com). -->
 
@@ -30,7 +30,7 @@ Simply load the module after loading Highlight.js. You'll use the minified versi
 ```html
 <script
     type="text/javascript"
-    src="https://unpkg.com/highlightjs-jaiva@0.0.1/dist/jaiva.min.js"
+    src="https://unpkg.com/highlightjs-jaiva@1.1.0/dist/jaiva.min.js"
 ></script>
 ```
 
@@ -68,4 +68,4 @@ Contributions are what make the open source community such an amazing place to b
 
 -   The official site for the Highlight.js library is <https://highlightjs.org/>.
 -   The Highlight.js GitHub project: <https://github.com/highlightjs/highlight.js>
--   Learn more about jaiva: <https://github.com/yetnt/jaiva>
+-   Learn more about jaiva: <https://github.com/jaiva-lang/hightlightjs>
