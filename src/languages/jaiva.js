@@ -11,8 +11,8 @@ module.exports = function (hljs) {
             "if colonize nikhil kwenza khutla mara zama chaai however with tsea maak cima sif",
         literal: "true false yebo aowa idk",
         built_in:
-            "khuluma scope getVarClass typeOf arrLit neg version args uargs reservedKeywords mamela sleep flat tseaf "
-	    + "linker",
+            "khuluma scope getVarClass typeOf arrLit neg version args uargs reservedKeywords mamela sleep flat tseaf " +
+            "linker",
     };
     var NUMBER = {
         className: "number",
@@ -26,7 +26,7 @@ module.exports = function (hljs) {
     };
 
     const allKeywords = (KEYWORDS.keyword + " " + KEYWORDS.literal).split(
-        /\s+/
+        /\s+/,
     );
     const keywordPattern = allKeywords
         .map((k) => k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
@@ -34,6 +34,7 @@ module.exports = function (hljs) {
 
     return {
         name: "jaiva",
+        // eslint-disable-next-line array-element-newline, array-bracket-newline
         aliases: ["jva", "jiv"],
         keywords: KEYWORDS,
         case_insensitive: true,
@@ -108,7 +109,7 @@ module.exports = function (hljs) {
             {
                 className: "variable",
                 begin: new RegExp(
-                    `\\b(?!${keywordPattern})[a-zA-Z_][a-zA-Z0-9_]*\\b`
+                    `\\b(?!${keywordPattern})[a-zA-Z_][a-zA-Z0-9_]*\\b`,
                 ),
                 relevance: 0,
             },
