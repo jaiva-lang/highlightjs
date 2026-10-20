@@ -5,7 +5,7 @@
 
 [![ci status](https://github.com/yetnt/jaiva/highlightjs/actions/workflows/ci.yml/badge.svg)](https://github.com/jaiva-lang/highlightjs/actions/workflows/ci.yml)
 
-Jaiva! is an esoteric* functional* programming language which ive randomly decided requires hightlighting.
+Jaiva! is an esoteric* functional* programming language which ive randomly decided requires highlighting.
 
 <!-- Link to [jaiva grammar description](https://official.language.com). -->
 
@@ -34,7 +34,7 @@ Simply load the module after loading Highlight.js. You'll use the minified versi
 ></script>
 ```
 
--   More info: <https://unpkg.com>
+- More info: <https://unpkg.com>
 
 ### With Node or another build system
 
@@ -66,6 +66,6 @@ Contributions are what make the open source community such an amazing place to b
 
 ## Links
 
--   The official site for the Highlight.js library is <https://highlightjs.org/>.
--   The Highlight.js GitHub project: <https://github.com/highlightjs/highlight.js>
--   Learn more about jaiva: <https://github.com/jaiva-lang/hightlightjs>
+- The official site for the Highlight.js library is <https://highlightjs.org/>.
+- The Highlight.js GitHub project: <https://github.com/highlightjs/highlight.js>
+- Learn more about jaiva: <https://github.com/jaiva-lang/highlightjs>
