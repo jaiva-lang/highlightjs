@@ -8,10 +8,11 @@ Category: scripting
 module.exports = function (hljs) {
     var KEYWORDS = {
         keyword:
-            "if colonize nikhil kwenza khutla mara zama chaai however with tsea maak cima",
+            "if colonize nikhil kwenza khutla mara zama chaai however with tsea maak cima sif",
         literal: "true false yebo aowa idk",
         built_in:
-            "khuluma scope getVarClass typeOf arrLit neg version args uargs reservedKeywords mamela sleep flat",
+            "khuluma scope getVarClass typeOf arrLit neg version args uargs reservedKeywords mamela sleep flat tseaf "
+	    + "linker",
     };
     var NUMBER = {
         className: "number",
@@ -88,7 +89,7 @@ module.exports = function (hljs) {
             },
             {
                 className: "operator",
-                begin: "(=>|<-|<-\\||%|\\^|\\-|\\+|\\/|\\*|x<|x>|<<|>>|<=|>=|<|>|=|!=|\\?|\\|\\||\\&\\&|\\||\\&)",
+                begin: "(#|=>|<-|<-\\||%|\\^|\\-|\\+|\\/|\\*|x<|x>|<<|>>|<=|>=|<|>|=|!=|\\?|\\|\\||\\&\\&|\\||\\&)",
             },
             // {
             //     className: "punctuation",
@@ -96,7 +97,7 @@ module.exports = function (hljs) {
             // },
             {
                 className: "meta",
-                begin: "\\?|F~|!|V~",
+                begin: "F~|!|V~|\\|>|<\\||:::|~|f~|\\?>",
             },
             // Function names
             {

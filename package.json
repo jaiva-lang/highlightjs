@@ -1,6 +1,6 @@
 {
     "name": "highlightjs-jaiva",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "Lehlogonolo Poole",
     "description": "Jaiva Scripting language definition for highlightjs",
     "main": "src/languages/jaiva.js",
@@ -18,7 +18,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git://github.com/yetnt/highlightjs-jaiva.git"
+        "url": "git://github.com/jaiva-lang/highlightjs.git"
     },
     "keywords": [
         "highlight.js",
@@ -31,9 +31,9 @@
     ],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/yetnt/highlightjs-jaiva/issues"
+        "url": "https://github.com/jaiva-lang/highlightjs/issues"
     },
-    "homepage": "https://github.com/yetnt/highlightjs-jaiva",
+    "homepage": "https://github.com/jaiva-lang/highlightjs",
     "devDependencies": {
         "highlight.js": "^11.11.1",
         "eslint": "^10.12.0",
