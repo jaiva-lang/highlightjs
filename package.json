@@ -3,18 +3,24 @@
     "version": "1.1.0",
     "author": "Lehlogonolo Poole",
     "description": "Jaiva Scripting language definition for highlightjs",
-    "main": "src/languages/jaiva.js",
+    "main": "dist/jaiva.cjs",
+    "type": "module",
+    "module": "dist/jaiva.es.js",
+    "exports": {
+        ".": {
+            "import": "./dist/jaiva.es.js",
+            "require": "./dist/jaiva.cjs"
+        }
+    },
     "scripts": {
-        "mocha": "mocha",
-        "test": "mocha test",
-        "test-markup": "mocha test/markup",
-        "test-detect": "mocha test/detect",
-        "lint": "eslint src/languages/jaiva.js"
+        "build": "rollup -c",
+        "pretest": "npm run build",
+        "test": "mocha",
+        "test-markup": "npm test"
     },
     "files": [
-        "src/languages/jaiva.js",
-        "dist/jaiva.min.js",
-        "dist/jaiva.es.js"
+        "src",
+        "dist"
     ],
     "repository": {
         "type": "git",
@@ -34,10 +40,15 @@
         "url": "https://github.com/jaiva-lang/highlightjs/issues"
     },
     "homepage": "https://github.com/jaiva-lang/highlightjs",
+    "peerDependencies": {
+        "highlight.js": "^11.11.0"
+    },
     "devDependencies": {
+        "glob": "^13.0.6",
         "highlight.js": "^11.12.0",
         "eslint": "^10.13.0",
         "mocha": "^12.0.3",
-        "should": "^13.2.3"
+        "should": "^13.2.3",
+        "rollup": "^4.64.12"
     }
 }

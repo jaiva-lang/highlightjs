@@ -5,7 +5,7 @@ Author: Lehlogonolo Poole <hlonipoole692@gmail.com>
 Category: scripting
 */
 
-module.exports = function (hljs) {
+export default function (hljs) {
     var KEYWORDS = {
         keyword:
             "if colonize nikhil kwenza khutla mara zama chaai however with tsea maak cima sif",
